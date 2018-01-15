@@ -161,7 +161,7 @@ export default {
      * @param event
      */
     handleClickThird(event) {
-      this.idnex3 = parseInt(event.target.dataset.idx3, 10)
+      this.index3 = parseInt(event.target.dataset.idx3, 10)
       if (this.level === 3) {
         const item = this.leftList[this.index1].children[this.index2].children.filter(item => !item[this.checkedName])[this.index3]
         item[this.checkedName] = true
@@ -272,14 +272,15 @@ export default {
 
   .left-header,
   .right-header {
-    background: #f5f7fa;
-    border-radius: 4px;
     width: 100%;
     height: 40px;
-    line-height: 40px;
     font-size: 16px;
+    line-height: 40px;
     text-align: center;
+    background: #f5f7fa;
+    border-radius: 4px;
   }
+
   .left-content,
   .right-content {
     display: flex;
@@ -290,11 +291,11 @@ export default {
   .list1,
   .list2,
   .list3 {
-    border-right: 1px solid #ebeef5;
-    border-radius: 4px;
-    overflow: auto;
     width: 150px;
     height: 100%;
+    overflow: auto;
+    border-right: 1px solid #ebeef5;
+    border-radius: 4px;
 
     .list1-item,
     .list2-item,
@@ -317,25 +318,25 @@ export default {
   .left {
     display: flex;
     flex-direction: column;
+    height: 100%;
     border: 1px solid #ebeef5;
     border-radius: 4px;
-    height: 100%;
   }
 
   .between {
-    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100px;
 
     .arrow-right,
     .arrow-left {
       width: 100%;
       height: 60px;
-      line-height: 60px;
-      text-align: center;
       font-size: 20px;
+      line-height: 60px;
       color: #606266;
+      text-align: center;
     }
   }
 
