@@ -1,6 +1,7 @@
 # transfer-template
 
-> A transfer implemented with vuejs.
+> A transfer implemented with vuejs.  
+> 使用vuejs实现的省市区三级穿梭器组件
 
 ## Build Setup
 
