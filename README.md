@@ -1,5 +1,7 @@
 # transfer-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lovelope/vue-transfer.svg)](https://greenkeeper.io/)
+
 > A transfer implemented with vuejs.  
 > 使用vuejs实现的省市区三级穿梭器组件
 
